@@ -60,7 +60,7 @@ Si bien puedes elegir la cartera que desees, aqui te comentamos cuál sería la 
 &nbsp;&nbsp;
 '''
 a = st.multiselect("Elige tus activos para el armado de la cartera (te mostrará datos de los ùltimos 900 dias)",["bitcoin", "ethereum", "binancecoin", "ripple", "usd-coin", "dogecoin", "solana", "cardano", "tether", "tron"])
-q_sim = st.slider("Seleeciona la cantidad de simulaciones", 4000, 12000,6000)
+q_sim = st.slider("Selecciona la cantidad de simulaciones", 4000, 12000,6000)
 def precios(symbol):
     url = "https://api.coingecko.com/api/v3/coins/"+symbol+"/market_chart?vs_currency=usd&days=900&interval=daily"
     r = requests.get(url)
