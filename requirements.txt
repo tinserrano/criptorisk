@@ -1,7 +1,7 @@
 streamlit
 pandas
 numpy
-matplotlib==3.5.2
+matplotlib==3.4.1
 time
 requests
 plotly
